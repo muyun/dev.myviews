@@ -3,8 +3,8 @@ from flask import (
 )
 from werkzeug.exceptions import abort
 
-from app.auth import login_required
-from app.database import get_db
+#from app.auth import login_required
+#from app.database import get_db
 
 bp = Blueprint('insightmark', __name__)
 
@@ -93,4 +93,4 @@ def delete(id):
     db = get_db()
     db.execute('DELETE FROM post WHERE id = ?', (id,))
     db.commit()
-    return redirect(url_for('insightmark.index'))
+    return redirect(url_for('sightmark.index'))
