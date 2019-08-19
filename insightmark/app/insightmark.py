@@ -5,6 +5,8 @@ from werkzeug.exceptions import abort
 
 #from app.auth import login_required
 #from app.database import get_db
+from auth import login_required
+from database import get_db
 
 bp = Blueprint('insightmark', __name__)
 

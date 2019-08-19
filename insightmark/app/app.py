@@ -29,15 +29,20 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
-    from . import database
+    #from . import database
+    import database
     database.init_app(app)
 
-    from . import auth
+    #from .app import auth
+    import auth
     app.register_blueprint(auth.bp)
 
-    from . import insightmark
+    #from .app import insightmark
+    import insightmark
     app.register_blueprint(insightmark.bp)
     app.add_url_rule('/', endpoint='index')
 
     return app
 
+if __name__ == '__main__':
+    app.run()
