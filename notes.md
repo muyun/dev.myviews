@@ -1,5 +1,9 @@
 #### notes
 
+#### deploy 
+ * [site](http://insightmark.herokuapp.com) 
+ * TODO 
+   - use postgres database   
 
 
 #### insightmark
