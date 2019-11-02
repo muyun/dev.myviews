@@ -1,3 +1,3 @@
 ### my bookmarks 
 
-app to mark my notes/insights
+* record notes/insights based on Flask/Python
