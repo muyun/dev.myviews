@@ -24,9 +24,9 @@ def index():
         ' ORDER BY created DESC'
     ).fetchall()
     """
+    #print("check_author-: ", check_author)
     posts = Post.query.filter(Post.author_id == User.id).order_by(desc(Post.created))
-    print(posts)
-
+    #print("posts-: ", posts)
 
     return render_template('post/index.html', posts=posts)
 
@@ -81,11 +81,15 @@ def get_post(id, check_author=True):
     if post is None:
         abort(404, "Post id {0} doesn't exist.".format(id))
 
+    print("check_author: ", check_author)
+    print("post.id: ", post.id)
+    print("g.user.id: ", g.user.id)
+
     """
     if check_author and post.id != g.user.id:
         abort(403)
     """
-
+    
     return post
 
 @bp.route('/<int:id>/update', methods=('GET', 'POST'))

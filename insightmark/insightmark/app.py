@@ -40,5 +40,5 @@ app.register_blueprint(post.bp)
 app.add_url_rule('/', endpoint='index')
 
 if __name__ == '__main__':
-    #app.debug = True
+    app.debug = True
     app.run()

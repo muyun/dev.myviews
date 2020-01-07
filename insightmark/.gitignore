@@ -1,3 +1,4 @@
 *pyc*
 .gitignore
 app/*pyc*
+.DS_Store

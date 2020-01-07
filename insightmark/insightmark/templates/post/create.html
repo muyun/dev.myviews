@@ -5,11 +5,19 @@
 {% endblock %}
 
 {% block content %}
-  <form method="post">
+  <form method="post" >
     <label for="title">Title</label>
-    <input name="title" id="title" value="{{ request.form['title'] }}" required>
+    <input name="title" style="font-size:15pt"  id="title" value="{{ request.form['title'] }}" required>
     <label for="body">Body</label>
-    <textarea name="body" id="body">{{ request.form['body'] }}</textarea>
+    <textarea name="body"  style="font-size:15pt"  id="body">{{ request.form['body'] }}</textarea>
     <input type="submit" value="Save">
   </form>
+
+  <script type=text/javascript>
+    function getContent(){
+          document.getElementById("title").value = document.getElementById("title").innerHTML;
+          document.getElementById("body").value = document.getElementById("body").innerHTML;
+      
+        }
+   </script>
 {% endblock %}
