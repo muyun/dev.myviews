@@ -1,3 +1,3 @@
 ### bookmarks 
 
-* record notes/insights based on Flask/Python
+* record my notes/insights based on Flask/Python
