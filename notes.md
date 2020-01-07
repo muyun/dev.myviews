@@ -1,9 +1,17 @@
 #### notes
 
 #### deploy 
- * [site](http://insightmark.herokuapp.com) 
+ * local 
+   - db: flask init-db  
+   - run  
+     > export FLASK_APP=insightmark  
+     > export FLASK_ENV=development  
+     > flask run  
+
+ *    
+ * [onsite](http://insightmarks.herokuapp.com) 
  * TODO 
-   - use postgres database   
+   -    
 
 
 #### insightmark
