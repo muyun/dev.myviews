@@ -1,3 +1,3 @@
-### bookmarks 
+### notemarks 
 
-* record my notes/insights based on Flask/Python
+* a note taking system
