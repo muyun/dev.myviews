@@ -1,3 +1,3 @@
 ### notemarks 
 
-* a note taking system
+* a note taking system based on Flask
