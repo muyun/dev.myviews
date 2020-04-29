@@ -1,4 +1,4 @@
-#### demo a note taking system
+#### A note taking system
 
 Just click [mymarks](http://insightmarks.herokuapp.com), and register it, 
 then you can **record your notes or thoughts online**.
