@@ -1,4 +1,4 @@
-#### A Online personal bookmark APP caring your privacy and security firstly
+#### A personal bookmark APP caring your privacy and security firstly
 
 Just click [imarks](http://insightmarks.herokuapp.com), and register it, 
 then you can **record your personal notes or thoughts online**.
