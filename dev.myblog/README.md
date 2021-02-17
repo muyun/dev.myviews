@@ -1,11 +1,6 @@
 
-
 #### TODO  
 * build my personal blog  
+  - Flask + React 
 
 * build my personal bookmark 
-
-
-#### reference
-* [pythonanywhere](https://www.pythonanywhere.com/user/muyun/)
-* [Blask](https://getblask.com/)
