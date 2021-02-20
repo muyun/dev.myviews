@@ -11,13 +11,22 @@
 
 * Packages  
 
-  
+* Test 
+  - **what** was done - look at **the result** of a particular behavior   
+  - a full **testing suite**  
+  - each test unit must be fully **independent**  
+  - **write a broken unit test about** what you want to develop next  
+    
 
 #### deploy  
+* test  
+  > pytest  
+
 * run  
   > export FLASK_APP=blog
   > export FLASK_ENV=development  
   > flask run  
+
 
 #### reference
 * [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/writing/structure/)
