@@ -1,12 +1,13 @@
 #from context import client, app
 import pytest
 
-from .context import blog
-from blog import create_app
+from context import blog
+#from blog import create_app
 
+"""
 @pytest.fixture  # contains setup functions called fixtures that each test will use
 def app():
-    app = create_app({
+    app = blog.create_app({
         'TESTING': True,
     })
 
@@ -15,10 +16,11 @@ def app():
 @pytest.fixture
 def client(app):
     return app.test_client()
-
+"""
 
 def test_config():
-    assert not create_app().testing
+    assert not blog.create_app().testing
+    assert blog.create_app({'TESTING': True}).testing
 
 def test_hello(client):
     response = client.get('/hello')
