@@ -1,8 +1,6 @@
 
 #### note  
 
-* React ? 
-
 ##### structure is the key  
 * Modules 
   - modular programming - separating code into parts holding related data and function   
