@@ -1,27 +1,30 @@
 import os
-from flask import Flask, render_template
+import logging 
+
+from flask import Flask, render_template, url_for, request
 from flask_flatpages import FlatPages
 
 app = Flask(__name__)
-app.config.from_mapping(
-        TESTING=True,
-        SECRET_KEY='dev',
-        #DATABASE = os.path.join(app.instance_path, 'blog.sqlite'),
-    )
-
 pages = FlatPages(app)
-FLATPAGES_INSTANCE_RELATIVE=True
-#FLATPAGES_ROOT = 'posts'
-FLATPAGES_EXTENSION = ['.md', '.markdown']
-#FLATPAGES_AUTO_RELOAD = DEBUG
 
-@app.route("/")
-def index():
-    print(pages)
-    posts = [p for p in pages if 'date' in p.meta]
-    print(posts)
-    posts.sort(key=lambda item:item['date'], reverse=False)
-    return render_template('posts.html', posts=posts)
+
+@app.route('/hello')
+def hello():
+    page = pages.get('hello')
+    logging.debug(f'page.meta:{page.meta}')
+    title = page.meta['title']
+
+#    posts = (p for p in pages if 'date' in p.meta)
+#    print(posts)
+#    sorted(posts,key=lambda p: p.meta['date'], reverse=True)
+    return render_template('hello.html', titles=title)
+
+@app.route('/about')
+def about():
+    return "About"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='127.0.0.1', port=4000)
+    
+    with app.test_request_context('/'):
+        print(request.posts)

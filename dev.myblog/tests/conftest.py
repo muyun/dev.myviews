@@ -6,6 +6,16 @@ import tempfile
 import pytest
 
 from context import blog
+from blog.app import app, pages
+
+@pytest.fixture
+def pages():
+    source = os.path.join(os.path.dirname(__file__), 'pages')
+    app.config['FLATPAGES_ROOT'] = source
+
+    #yield app
+
+"""
 from blog import create_app
 from blog.db import get_db, init_db
 
@@ -38,3 +48,4 @@ def app():
 @pytest.fixture
 def client(app):
     return app.test_client()
+"""

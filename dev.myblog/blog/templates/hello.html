@@ -1,0 +1,11 @@
+<!doctype html>
+<title> Hello </title>
+{% if titles %}
+   {% for title in titles %}
+    <a>
+        {{ title }}
+    </a>
+{% else %}
+    <small>No page so far</small>
+{% endif %}
+
