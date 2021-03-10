@@ -1,6 +1,16 @@
 
 #### note  
 
+##### 2020-03-10  
+* TODO  
+  - flatpages in Flask  ?  
+  - pytest functions  
+ 
+
+* use static not database to manage files
+  - flatpages module  
+  - sometimes flatpages dones't work in flask  - fix
+
 * React ? 
 
 ##### structure is the key  

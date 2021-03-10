@@ -10,6 +10,7 @@ pages = FlatPages(app)
 
 @app.route('/hello')
 def hello():
+    app.config['FLATPAGES_EXTENSION'] = '.md'
     page = pages.get('hello')
     logging.debug(f'page.meta:{page.meta}')
     title = page.meta['title']
@@ -24,7 +25,9 @@ def about():
     return "About"
 
 if __name__ == "__main__":
-    app.run(debug=True, host='127.0.0.1', port=4000)
+    #hello()
+    app.run(debug=True)
     
     with app.test_request_context('/'):
         print(request.posts)
+    
