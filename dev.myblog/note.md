@@ -1,10 +1,22 @@
 
 #### note  
 
+##### 2020-03-13  
+* TODO 
+  - design the layout  
+  - pytest functions 
+
+* Fixed 
+  - add config_public.py for public setting
+
 ##### 2020-03-10  
 * TODO  
   - flatpages in Flask  ?  
+    + Done 
+    + pages Works in jinjia templates, not in Flask 
+     
   - pytest functions  
+    + TODO 
  
 
 * use static not database to manage files
@@ -12,6 +24,16 @@
   - sometimes flatpages dones't work in flask  - fix
 
 * React ? 
+
+#### deploy  
+* test  
+  > pytest  
+
+* run  
+  > export FLASK_APP=app.py
+  > export FLASK_ENV=development  
+  > flask run  
+
 
 ##### structure is the key  
 * Modules 
@@ -31,17 +53,8 @@
 
 * Doc   
 
-#### deploy  
-* test  
-  > pytest  
-
-* run  
-  > export FLASK_APP=blog
-  > export FLASK_ENV=development  
-  > flask run  
-
-
 #### reference
+* [Dead easy yet powerful static website generator with Flask](https://nicolas.perriault.net/code/2012/dead-easy-yet-powerful-static-website-generator-with-flask/)
 * [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/writing/structure/)
 * [Create a Static Blog Using Python Flask](https://dev.to/arrantate/create-a-static-blog-using-python-flask-1oab) 
 * [pythonanywhere](https://www.pythonanywhere.com/user/muyun/)

@@ -1,6 +1,8 @@
 
 #### TODO  
 * build my personal blog  
-  - Flask + React 
+  - Flask 
 
 * build my personal bookmark 
+
+* e-commerce

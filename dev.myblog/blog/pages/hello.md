@@ -1,7 +1,5 @@
 # hello.html
 title: Hello
-published: 2010-12-22
+published: 2012-03-13
 
-Hello, *World*!
-
-Lorem ipsum dolor sit amet, …
+Hello, World, I am coming ... 

@@ -1,8 +1,12 @@
 <!doctype html>
-<html lang="en">
 
-<link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.ico')}}">
+<meta charset="utf-8">
+<title>Home</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
-
-{% block body %}
-{% endblock %}
+<body>
+    <h1><a href="{{ url_for("index") }}">Home</a></h1>
+{% block content %}
+    <p>Default content to be displayed</p>
+{% endblock content %}
+</body>
