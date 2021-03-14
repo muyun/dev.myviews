@@ -4,7 +4,7 @@ import logging
 from flask import Flask, render_template, url_for, request
 from flask_flatpages import FlatPages
 
-FLATPAGES_AUTO_RELOAD = 'DEBUG'
+#FLATPAGES_AUTO_RELOAD = 'DEBUG'
 #FLATPAGES_EXTENSION = '.md'
 
 app = Flask(__name__)
@@ -14,7 +14,7 @@ pages = FlatPages(app)
 
 @app.route('/hello')
 def hello():
-    page = pages.get('hello')
+#    page = pages.get('hello')
     #logging.debug(f'page.meta:{page.meta}')
 #    title = page.meta['title']
 
@@ -37,7 +37,19 @@ def index():
 def about():
     return "About"
 
+@app.route('/blog')
+def blog():
+    return render_template('index.html', pages=pages)
+
+@app.route('/slide')
+def slide():
+    return 'slide'
+    #return render_template('slide.html')
+
+@app.route('/book')
+def book():
+    return "book"
+
 if __name__ == "__main__":
-    #hello()
     app.run()
     

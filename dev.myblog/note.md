@@ -16,7 +16,6 @@
     + pages Works in jinjia templates, not in Flask 
      
   - pytest functions  
-    + TODO 
  
 
 * use static not database to manage files
