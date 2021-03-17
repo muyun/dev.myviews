@@ -1,9 +1,29 @@
 
 #### note  
 
+#### 2020-03-17  
+* fix the issue to display books.md 
+  - Only get book page in pages 
+
+* improve the frontend  
+  - React ?  
+
+* improve flask app 
+  - organize Flask server  
+  - bp? 
+
+* reference
+  - [react-flask](http://allynh.com/blog/adding-a-react-frontend-to-your-flask-project/)
+
+#### 2020-03-14  
+* TODO  
+  - transfer books.md to html 
+  - improve the layout  
+  - pytest 
+
 ##### 2020-03-13  
 * TODO 
-  - design the layout  
+  - design the layout  - fixed, need to improve  
   - pytest functions 
 
 * Fixed 

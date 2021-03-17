@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for page in pages if page.title == 'Slides' %} 
+
+<h2>{{ page.title }}</h2>
+    {{ page.html|safe }}
+
+    {% endfor %}
+{% endblock content %}

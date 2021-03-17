@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+
 html {
     font-family: sans-serif;
     background: #eee;
@@ -5,20 +13,19 @@ html {
   }
   
   body {
-    max-width: 960px;
-    margin: 0 auto;
-    background: white;
+    font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: #fdfdfd;
   }
   
-  h1, h2, h3, h4, h5, h6 {
-    font-family: serif;
-    color: #377ba8;
-    margin: 1rem 0;
-  }
+  h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+
   
-  a {
-    color: #377ba8;
-  }
+a {color: #2a7ae2; text-decoration: none;}
+a:hover   { color: #000; text-decoration: underline; }
+  a:visited { color: #205caa; }
   
   hr {
     border: none;

@@ -8,7 +8,7 @@ from flask_flatpages import FlatPages
 #FLATPAGES_EXTENSION = '.md'
 
 app = Flask(__name__)
-app.config.from_pyfile('config_public.py')
+app.config.from_pyfile('config.py')
 pages = FlatPages(app)
 
 
@@ -41,10 +41,10 @@ def about():
 def blog():
     return render_template('index.html', pages=pages)
 
-@app.route('/slide')
-def slide():
-    return 'slide'
-    #return render_template('slide.html')
+@app.route('/research')
+def research():
+    #return 'research'
+    return render_template('research.html', pages=pages)
 
 @app.route('/book')
 def book():
