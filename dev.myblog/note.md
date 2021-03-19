@@ -7,6 +7,8 @@
     + fixed 
   - check blueprint and react 
   - add tag 
+  - fix the file format in _posts 
+  - put this on cloud  
   
 * FIX the front-end issues  
 
