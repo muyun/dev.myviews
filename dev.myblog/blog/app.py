@@ -1,14 +1,19 @@
 import os
 import logging 
 
-from flask import Flask, render_template, url_for, request
+from flask import Flask, Blueprint, redirect, render_template, url_for, request
 from flask_flatpages import FlatPages
+
+from flaskext.markdown import Markdown
+
+#from jinja2 import Environment
 
 #FLATPAGES_AUTO_RELOAD = 'DEBUG'
 #FLATPAGES_EXTENSION = '.md'
 
 app = Flask(__name__)
 app.config.from_pyfile('config.py')
+Markdown(app, extensions=['fenced_code'])
 pages = FlatPages(app)
 
 
@@ -35,7 +40,8 @@ def index():
   
 @app.route('/about')
 def about():
-    return "About"
+    #return "About"
+    return render_template('about.html', pages=pages)
 
 @app.route('/blog')
 def blog():
@@ -48,7 +54,9 @@ def research():
 
 @app.route('/book')
 def book():
-    return "book"
+    #return "book"
+    return render_template('book.html', pages=pages)
+
 
 if __name__ == "__main__":
     app.run()

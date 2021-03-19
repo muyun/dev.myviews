@@ -1,12 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-    
     <ul>
-    {% for page in pages if page.title != 'Slides' %}
-        <li>
-            <a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a>
-        </li>
+    {% for page in pages|sort(reverse=true, attribute='date') %}
+      {% if page.title != 'Slides' and page.title != 'About' and page.title != 'Bookshelf' %}
+        <article class="post">
+          <h4> 
+            <a href="{{ url_for("page", path=page.path) }}">{{ page.title }} 
+              <label class="date"> - {{ page.date }}</label></a>
+
+          </h4> 
+        </article>
+      {% endif %}
     {% endfor %}
     </ul>
 {% endblock content %}

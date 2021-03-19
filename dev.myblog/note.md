@@ -1,6 +1,16 @@
 
 #### note  
 
+#### 2020-03-19  
+* FIX the front-end issues  
+
+#### 2020-03-18  
+
+* TODO 
+  - react  
+  - [markdown in flask](https://florian-dahlitz.de/blog/build-a-markdown-to-html-conversion-pipeline-using-python)
+* doc using Sphinx
+
 #### 2020-03-17  
 * fix the issue to display books.md 
   - Only get book page in pages 
@@ -9,8 +19,9 @@
   - React ?  
 
 * improve flask app 
-  - organize Flask server  
-  - bp? 
+  - organize server into distince components 
+    + add blueprint    
+  
 
 * reference
   - [react-flask](http://allynh.com/blog/adding-a-react-frontend-to-your-flask-project/)

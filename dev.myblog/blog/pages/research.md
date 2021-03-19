@@ -1,10 +1,9 @@
 title: Slides
 date: 2012-03-13
 
-#### List of some of my interviews/research!  
+### List of some of my interviews/research!  
 
 #### Paper-review-2020  
-
 
 #### Jan 9, 2020 -  [My Reflection Paper](https://drive.google.com/file/d/1A5wRpXAVnOGyQknvSRQH-oNoApGMjVap/view?usp=sharing) on Professional Business English course 
 

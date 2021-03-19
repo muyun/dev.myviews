@@ -2,9 +2,14 @@
 
 {% block content %}
 {% for page in pages if page.title == 'Slides' %} 
-
-<h2>{{ page.title }}</h2>
-    {{ page.html|safe }}
+    <article class="post">
+    
+    <header>
+        <h2>{{ page.title }}</h2>  
+    </header>
+    
+    <p class="body">{{ page.html |markdown }}</p>
+    </article>
 
     {% endfor %}
 {% endblock content %}
