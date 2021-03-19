@@ -66,7 +66,7 @@
   > pytest  
 
 * run  
-  > export FLASK_APP=app.py
+  > export FLASK_APP=blog
   > export FLASK_ENV=development  
   > flask run  
 
