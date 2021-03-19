@@ -3,8 +3,10 @@
 
 #### 2020-03-19  
 * TODO 
+  - url_for issue for blueprint 
+    + fixed 
+  - check blueprint and react 
   - add tag 
-  - check react 
   
 * FIX the front-end issues  
 
