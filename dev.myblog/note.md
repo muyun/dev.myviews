@@ -2,6 +2,10 @@
 #### note  
 
 #### 2020-03-19  
+* TODO 
+  - add tag 
+  - check react 
+  
 * FIX the front-end issues  
 
 #### 2020-03-18  

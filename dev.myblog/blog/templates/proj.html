@@ -1,12 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
+<header>
+    <h2>Project</h2>  
+</header>
+
 {% for page in pages if page.title == 'Slides' %} 
     <article class="post">
     
-    <header>
-        <h2>{{ page.title }}</h2>  
-    </header>
+
     
     <p class="body">{{ page.html |markdown }}</p>
     </article>

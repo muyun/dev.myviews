@@ -1,14 +1,13 @@
 {% extends "base.html" %}
 
-
 {% block content %}
+
 {% for page in pages if page.title == 'Bookshelf' %} 
+<header>
+    <h2>{{ page.title }}</h2>  
+</header>
+
     <article class="post">
-    
-    <header>
-        <h2>{{ page.title }}</h2>  
-    </header>
-    
     <p class="body">{{ page.html |markdown }}</p>
     </article>
 

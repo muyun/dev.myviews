@@ -47,16 +47,19 @@ def about():
 def blog():
     return render_template('index.html', pages=pages)
 
-@app.route('/research')
+@app.route('/proj')
 def research():
     #return 'research'
-    return render_template('research.html', pages=pages)
+    return render_template('proj.html', pages=pages)
 
 @app.route('/book')
 def book():
     #return "book"
     return render_template('book.html', pages=pages)
 
+@app.route('/link')
+def link():
+    return render_template('link.html', pages=pages)
 
 if __name__ == "__main__":
     app.run()

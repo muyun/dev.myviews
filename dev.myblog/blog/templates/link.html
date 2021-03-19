@@ -1,12 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% for page in pages if page.title == 'About' %} 
+{% for page in pages if page.title == 'link' %} 
 <header>
     <h2>{{ page.title }}</h2>  
 </header>
 
     <article class="post">
+    
     <p class="body">{{ page.html |markdown }}</p>
     </article>
 
