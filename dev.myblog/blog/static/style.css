@@ -1,5 +1,5 @@
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
   background: #eee;
   padding: 1rem;
 }
@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica;
   color: #377ba8;
   margin: 1rem 0;
 }
@@ -28,7 +28,7 @@ h3 {
 }
 
 h4 {
-  /*color:#f08080;*/
+  font-family: -apple-system, BlinkMacSystemFont,Helvetica;
   color: #818181;
   font-size: 18px;
   letter-spacing: -1px;
