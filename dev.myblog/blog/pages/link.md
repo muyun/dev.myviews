@@ -28,7 +28,7 @@ date: 2012-03-19
 * [courses](https://learn.saylor.org/course/index.php)
 
 #### TOCHECK
-* [](https://dkb.io/)
+* [Blog Surf](https://dkb.io/)
 
 #### tech
 * **[The Architecture Of Open Source Applications](http://aosabook.org/en/index.html)** 

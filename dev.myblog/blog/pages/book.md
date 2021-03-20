@@ -18,7 +18,6 @@ date: 2012-03-19
 
 * [Getting Things Done](https://book.douban.com/subject/1316569/) by David Allen  
 
-
 * [Dubliners](https://www.goodreads.com/book/show/11012.Dubliners?from_search=true&from_srp=true&qid=TzUuGOAZOA&rank=1) by James Joyce   
 * [流言](https://book.douban.com/subject/1980436/) by 張愛玲  
 * [The Design of Everyday Things](https://en.m.wikipedia.org/wiki/The_Design_of_Everyday_Things) by Donald Norman    

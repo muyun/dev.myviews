@@ -10,6 +10,12 @@ from . import pages
 def link():
     return render_template('info/link.html', pages=pages)
 
+
+@bp.route('/invest')
+def invest():
+    return render_template('info/invest.html', pages=pages) 
+
+
 @bp.route('/proj')
 def proj():
     #return 'research'
@@ -22,4 +28,3 @@ def book():
 @bp.route('/about')
 def about():
     return render_template('info/about.html', pages=pages)
-

@@ -1,7 +1,10 @@
-title: Daily Review
-date: 2020-03-19
-#comments: true
-#categories: [diary]
+---
+layout: post
+title: "Daily Review"
+date: 2021-01-03
+comments: true
+categories: [diary]
+---
 
 ### 记录下每天的工作和生活 - 2021
   * analyze how I spent my time
@@ -19,16 +22,16 @@ date: 2020-03-19
 
   * TOIMPROVE
     - 和人打交道的能力
-       + 善意的谎言
-       + **用说谎让别人自我感觉良好， 同时有效地展现自我**
+        + 善意的谎言
+        + **用说谎让别人自我感觉良好， 同时有效地展现自我**
 
     - 了解自己，想要什么样的生活
-       + 过好自己的小日子
-       + 小而美
+        + 过好自己的小日子
+        + 小而美
 
     - 谨慎选择自己的朋友
-       + 不离不弃的人
-       + 真心为你的成就而高兴的人
+        + 不离不弃的人
+        + 真心为你的成就而高兴的人
 
 #### 2021-02-26
   * Done
@@ -36,10 +39,10 @@ date: 2020-03-19
 
   * TOIMPROVE
     - spend too much effort/time on the stocks
-      + compose index etf
-      + don't **trade frequently**
-      + learn how to invest the poential ones
-      + don't put too much money on ones from news
+        + compose index etf
+        + don't **trade frequently**
+        + learn how to invest the poential ones
+        + don't put too much money on ones from news
 
 #### 2021-02-25
   * TODO
@@ -49,14 +52,14 @@ date: 2020-03-19
 
   * self
     - so stressful
-      + cannot sleep for the investment
-      + TODO - how to **make big decisions**
+       + cannot sleep for the investment
+       + TODO - how to **make big decisions**
 
 
 #### 2021-02-24
   * TODO
     - review Insurance docs
-      + ch3-ch6
+       + ch3-ch6
 
     - programming on blog
       + db part

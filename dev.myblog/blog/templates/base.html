@@ -2,6 +2,7 @@
 <html lang="en">
 <title> {% block title %}{% endblock %} - Home</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="{{ url_for('pygments_css')}}">
 
 <nav>
     <h1><a href="{{ url_for('blog.index')}}">Home</a></h1>
@@ -36,11 +37,26 @@
    
 {% endblock %}
 
-<div id="footer">
-    {% block footer %}
-    &copy; Copyright 2021 by zhaowenlong
-    {% endblock %}
-</div>
 
 </body>
+-->
+
+<!--
+<div class="footer">
+<nav>
+    <div class="footer-col-1">
+    <ul>
+     <li>&copy; Copyright 2021 by zhaowenlong </li>
+    </ul>
+  </div>
+
+    
+    <div class="footer-col-2">
+    <ul>
+    <p class="text"></p>
+   </ul>
+    </div>
+    
+</nav>
+</div>
 -->

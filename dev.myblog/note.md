@@ -6,9 +6,15 @@
   - url_for issue for blueprint 
     + fixed 
   - check blueprint and react 
-  - add tag 
-  - fix the file format in _posts 
-  - put this on cloud  
+  
+  - next functions  
+    + fix the file format  
+        - fix it basically  
+    + add tag 
+    + on cloud 
+    + RSS 
+    + Q&A interviews 
+
   
 * FIX the front-end issues  
 
