@@ -1,5 +1,11 @@
 #### notes
 
+#### TODO 
+ * fix the errors 
+
+ * idea
+   - [thoughts](https://thoughts.page/
+
 #### deploy 
  * local 
    - db: flask init-db  
