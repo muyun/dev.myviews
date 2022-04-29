@@ -6,18 +6,27 @@
  * idea
    - [thoughts](https://thoughts.page/
 
-#### deploy 
- * local 
-   - db: flask init-db  
-   - run  
+#### deploy  
+* local  
+  - use sqlite3 to develop  
+  - db: flask init-db  
+  - run  
      > export FLASK_APP=insightmark  
      > export FLASK_ENV=development  
      > flask run  
 
- *    
- * [onsite](http://insightmarks.herokuapp.com) 
- * TODO 
-   -    
+* [onsite](https://insightmarks.herokuapp.com/)  
+
+* db migration  
+  > python manage.py db init  
+  > python manage.py db migrate  
+* commands:  
+  > git commit -m "update" .  
+  > git push heroku master  
+  > heroku ps:scale web=1  
+  > heroku open  
+
+* [onsite](http://insightmarks.herokuapp.com) 
 
 
 #### insightmark

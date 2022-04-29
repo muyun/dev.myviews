@@ -1,6 +1,0 @@
-
-
-#### javascript  
-
-
-#### scheme  
