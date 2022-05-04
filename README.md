@@ -2,7 +2,7 @@
 
 The platform is just for you at a quieter, and personal internet.
 
-It's free for anyone.  Just click [imarks](http://insightmarks.herokuapp.com), and register it, 
+It's free for anyone.  Just click [thoughts](http://insightmarks.herokuapp.com), and register it, 
 then you can **record your personal thoughts**.
 
 <sub>>Any feedback or comment, please contact me : wenlzhao@gmail.com </sub>
