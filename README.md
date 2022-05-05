@@ -1,4 +1,4 @@
-#### A self-hosted service, nobody can @ you here.
+#### A self-hosted service in a micro-blog style, nobody can @ you here.
 The idea is to privately post personal notes, photos, videos and project ideas in a micro-blog style that you can later reflect and look back on.
 
 It's free for anyone.  Just click [dev.thoughts](http://insightmarks.herokuapp.com).
