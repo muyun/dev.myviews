@@ -1,4 +1,4 @@
-#### A micro service for your, nobody can @ you here.
+#### A micro service to host your information yourself, nobody can @ you here.
 The service is just for you at a quieter, and personal (or with friends) internet.
 
 It's free for anyone.  Just click [dev.thoughts](http://insightmarks.herokuapp.com), and then you can host information like notes, ideas/photo, ideas that you can later reflect.
