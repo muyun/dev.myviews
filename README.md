@@ -1,7 +1,7 @@
 #### A self-hosted service, nobody can @ you here.
-The service is just for you at a quieter, and personal (or with friends) internet.
+The idea is to privately post personal notes, photos, videos and project ideas on a micro-blog style platform that you can later reflect and look back on.
 
-It's free for anyone.  Just click [dev.thoughts](http://insightmarks.herokuapp.com), and then you can host information like notes, ideas/photo, ideas that you can later reflect.
+It's free for anyone.  Just click [dev.thoughts](http://insightmarks.herokuapp.com).
 
 <sub>>Any feedback or comment, please contact me : wenlzhao@gmail.com </sub>
 
