@@ -1,5 +1,5 @@
 #### A self-hosted service, nobody can @ you here.
-The idea is to privately post personal notes, photos, videos and project ideas on a micro-blog style platform that you can later reflect and look back on.
+The idea is to privately post personal notes, photos, videos and project ideas on a micro-blog style that you can later reflect and look back on.
 
 It's free for anyone.  Just click [dev.thoughts](http://insightmarks.herokuapp.com).
 
